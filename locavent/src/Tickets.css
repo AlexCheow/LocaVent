@@ -1,0 +1,39 @@
+.tickets-container {
+    background: linear-gradient(to bottom, #b3e5fc, #ffccff); /* Gradient background */
+  }
+  
+  .ticket-card {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .event-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .event-info {
+    font-size: 14px;
+  }
+  
+  .barcode-section {
+    border-top: 1px dashed #ddd;
+    padding-top: 20px;
+  }
+  
+  .barcode-img {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .barcode-text {
+    font-size: 12px;
+  }
+  

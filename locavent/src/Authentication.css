@@ -1,0 +1,38 @@
+.authentication-container {
+    background: linear-gradient(to bottom, #b3e5fc, #ffccff); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .authentication-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .please-wait-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #333;
+    border-top: 4px solid #7A3EAB; /* Customize color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  /* Loader animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

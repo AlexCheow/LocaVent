@@ -1,0 +1,81 @@
+/* HomePage.css */
+
+.homepage-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #7c3aed;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.search-button {
+  border-radius: 0 20px 20px 0;
+}
+
+.category-row .category {
+  background-color: #e9ecef;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.see-all {
+  font-size: 0.9rem;
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.trending-event {
+  padding-top: 10px;
+}
+
+.trending-event-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.trending-event-overlay {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+.event-cards .event-card {
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.event-card .price {
+  font-weight: bold;
+  color: #ff4d4d;
+}
